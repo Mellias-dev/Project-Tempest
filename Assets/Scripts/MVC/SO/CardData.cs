@@ -1,5 +1,6 @@
 using UnityEngine;
 
+[CreateAssetMenu(fileName = "New base Card", menuName = "Cards/Base card")]
 public class CardData : ScriptableObject
 {
     [SerializeField] private string _name;
@@ -7,9 +8,8 @@ public class CardData : ScriptableObject
     [SerializeField] private Sprite _sprite;
     [SerializeField] private Sprite _rarity;
 
-    public string Name { get { return _name; } }
-    public string Description { get { return _description; } }
-    public Sprite Sprite { get { return _sprite; } }
-
-    public Sprite rarity { get { return _rarity; } }
+    public string Name => _name;
+    public string Description => _description;
+    public Sprite Sprite => _sprite;
+    public Sprite Rarity => _rarity;
 }

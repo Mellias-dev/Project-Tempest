@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7950e3e01e59a04faea404a7266daba, type: 3}
+  m_Name: Ham
+  m_EditorClassIdentifier: 
+  _name: Ham
+  _description: its not halal
+  _sprite: {fileID: 21300000, guid: bb7181ba21349df4bb826dcc4b085426, type: 3}
+  _rarity: {fileID: 21300000, guid: 9e05d766a178b4648ad0f3ecd4f05a98, type: 3}
+  _weight: 3
+  _value: 6

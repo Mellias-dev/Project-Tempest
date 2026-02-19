@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7950e3e01e59a04faea404a7266daba, type: 3}
+  m_Name: Cheese
+  m_EditorClassIdentifier: 
+  _name: Cheese
+  _description: You cant do an omelette of fromage witout the fromage
+  _sprite: {fileID: 21300000, guid: 60377e0bbef2cf24b87b9ec348353e4c, type: 3}
+  _rarity: {fileID: 21300000, guid: bb7e2027f9cc81946a877001312f72d0, type: 3}
+  _weight: 2
+  _value: 5
